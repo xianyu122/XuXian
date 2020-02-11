@@ -1,0 +1,26 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: xuxian-article
+  datasource:
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    maxIdleTime: 60
+    initialPoolSize: 10
+    minPoolSize: 5
+    maxPoolSize: 100
+    url: jdbc:mysql://120.26.89.104:3306/xuxian_article?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=UTC&autoReconnect=true
+  jpa:
+    show-sql: true
+    database: mysql
+  redis:
+    host: 120.26.89.104
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:10086/eureka/, http://localhost:10087/eureka/
+#  instance:
+#    prefer-ip-address: true

@@ -11,6 +11,8 @@
     <modules>
         <module>xuxian_common</module>
         <module>xuxian_base</module>
+        <module>xuxian_article</module>
+        <module>xuxian_spit</module>
     </modules>
 
     <parent>
