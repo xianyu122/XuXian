@@ -13,6 +13,9 @@
         <module>xuxian_base</module>
         <module>xuxian_article</module>
         <module>xuxian_spit</module>
+        <module>rabbitmq_demo</module>
+        <module>xuxian_user</module>
+        <module>xuxian_sms</module>
     </modules>
 
     <parent>
@@ -38,6 +41,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <repositories>

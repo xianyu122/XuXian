@@ -1,0 +1,19 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: xuxian-sms
+  rabbitmq:
+    host: 120.26.89.104
+aliyun:
+  sms:
+    accessKeyId: LTAI4FtNam5WK4UZRMdTQUCt
+    accessKeySecret: xwfsGg9gfbpiPh6qs0WOr7zGUtEVMN
+    signName: xianyu
+    templateCode: SMS_183242409
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:10086/eureka/, http://localhost:10087/eureka/
+#  instance:
+#    prefer-ip-address: true

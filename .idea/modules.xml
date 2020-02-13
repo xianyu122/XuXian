@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/XuXian.iml" filepath="$PROJECT_DIR$/.idea/XuXian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuxian_parent/rabbitmq_demo/rabbitmq_demo.iml" filepath="$PROJECT_DIR$/xuxian_parent/rabbitmq_demo/rabbitmq_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_article/xuxian_article.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_article/xuxian_article.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_base/xuxian_base.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_base/xuxian_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_common/xuxian_common.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_common/xuxian_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_parent.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_sms/xuxian_sms.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_sms/xuxian_sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_spit/xuxian_spit.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_spit/xuxian_spit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_user/xuxian_user.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_user/xuxian_user.iml" />
     </modules>
   </component>
 </project>
