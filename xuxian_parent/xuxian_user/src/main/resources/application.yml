@@ -20,6 +20,10 @@ spring:
     host: 120.26.89.104
   redis:
     host: 120.26.89.104
+jwt:
+  config:
+    key: ceshi
+    ttl: 360000
 #eureka:
 #  client:
 #    service-url:

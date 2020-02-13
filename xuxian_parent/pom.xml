@@ -16,6 +16,7 @@
         <module>rabbitmq_demo</module>
         <module>xuxian_user</module>
         <module>xuxian_sms</module>
+        <module>jjwt_demo</module>
     </modules>
 
     <parent>

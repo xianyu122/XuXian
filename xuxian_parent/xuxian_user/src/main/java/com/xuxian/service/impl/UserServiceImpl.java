@@ -31,7 +31,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public void sendCode(String mobile) {
         String code = IdentifyUtil.randomStr();
-        System.out.println("手机号:"+mobile+"验证码为:"+code);
         redisTemplate.opsForValue().set("smscode_"+mobile,code,1, TimeUnit.MINUTES);
         Map<String,String> map = new HashMap<>();
         map.put("mobile",mobile);
@@ -51,5 +50,10 @@ public class UserServiceImpl implements UserService {
         user.setId(idWorker.nextId()+"");
         userDao.save(user);
         return StatusCode.OK;
+    }
+
+    @Override
+    public void delete(String id) {
+        userDao.deleteById(id);
     }
 }

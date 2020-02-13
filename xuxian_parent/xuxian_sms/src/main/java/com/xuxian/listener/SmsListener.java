@@ -23,8 +23,6 @@ public class SmsListener {
 
     @RabbitHandler
     public void sendCode(Map<String,String> map){
-        System.out.println("接收到的手机号:"+map.get("mobile"));
-        System.out.println("接收到的验证码是:"+map.get("code"));
         aliSendSms.sendMsg(map.get("mobile"),map.get("code"),signName,templateCode);
     }
 }

@@ -20,7 +20,7 @@ public class AliSendSms {
 
     public void sendMsg(String mobile, String code, String signName, String templateCode) {
         String accessKeyId = environment.getProperty("aliyun.sms.accessKeyId");
-        String accessSecret = environment.getProperty("aliyun.sms.accessSecret");
+        String accessSecret = environment.getProperty("aliyun.sms.accessKeySecret");
         DefaultProfile profile = DefaultProfile.getProfile("default", accessKeyId, accessSecret);
         IAcsClient client = new DefaultAcsClient(profile);
         String param = "{\"code\":"+code+"}";

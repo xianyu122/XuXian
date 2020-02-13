@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/XuXian.iml" filepath="$PROJECT_DIR$/.idea/XuXian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuxian_parent/jjwt_demo/jjwt_demo.iml" filepath="$PROJECT_DIR$/xuxian_parent/jjwt_demo/jjwt_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/rabbitmq_demo/rabbitmq_demo.iml" filepath="$PROJECT_DIR$/xuxian_parent/rabbitmq_demo/rabbitmq_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_article/xuxian_article.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_article/xuxian_article.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_base/xuxian_base.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_base/xuxian_base.iml" />

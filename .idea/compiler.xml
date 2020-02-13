@@ -12,10 +12,12 @@
         <module name="xuxian_common" />
         <module name="xuxian_user" />
         <module name="xuxian_sms" />
+        <module name="jjwt_demo" />
         <module name="xuxian_article" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jjwt_demo" target="1.8" />
       <module name="rabbitmq_demo" target="1.8" />
       <module name="xuxian_article" target="1.8" />
       <module name="xuxian_base" target="1.8" />
@@ -28,6 +30,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jjwt_demo" options="-parameters" />
       <module name="rabbitmq_demo" options="-parameters" />
       <module name="xuxian_article" options="-parameters" />
       <module name="xuxian_base" options="-parameters" />

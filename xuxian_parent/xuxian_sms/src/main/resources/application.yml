@@ -9,7 +9,7 @@ aliyun:
   sms:
     accessKeyId: LTAI4FtNam5WK4UZRMdTQUCt
     accessKeySecret: xwfsGg9gfbpiPh6qs0WOr7zGUtEVMN
-    signName: xianyu
+    signName: 咸鱼小哥哥
     templateCode: SMS_183242409
 #eureka:
 #  client:

@@ -7,4 +7,6 @@ public interface UserService {
     void sendCode(String mobile);
 
     int addUser(User user,String code);
+
+    void delete(String id);
 }
