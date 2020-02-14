@@ -1,0 +1,17 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: xuxian-spit
+  data:
+    mongodb:
+      host: 120.26.89.104
+      database: db_spit
+  rabbitmq:
+    host: 120.26.89.104
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka/
+  instance:
+    prefer-ip-address: true

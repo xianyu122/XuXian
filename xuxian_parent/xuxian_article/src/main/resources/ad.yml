@@ -18,9 +18,14 @@ spring:
     database: mysql
   redis:
     host: 120.26.89.104
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:10086/eureka/, http://localhost:10087/eureka/
-#  instance:
-#    prefer-ip-address: true
+  rabbitmq:
+    host: 120.26.89.104
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka/
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true

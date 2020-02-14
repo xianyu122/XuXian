@@ -16,9 +16,9 @@ spring:
   jpa:
     show-sql: true
     database: mysql
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:10086/eureka/, http://localhost:10087/eureka/
-#  instance:
-#    prefer-ip-address: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka/
+  instance:
+    prefer-ip-address: true

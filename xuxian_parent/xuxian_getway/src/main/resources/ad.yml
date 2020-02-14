@@ -1,0 +1,20 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: xuxian-getway
+  rabbitmq:
+    host: 120.26.89.104
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka/
+  instance:
+    prefer-ip-address: true
+zuul:
+  routes:
+    xuxian-base: /base/**
+    xuxian-article: /article/**
+    xuxian-sms: /sms/**
+    xuxian-spit: /spit/**
+    xuxian-user: /user/**

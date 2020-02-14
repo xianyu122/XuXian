@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_article/xuxian_article.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_article/xuxian_article.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_base/xuxian_base.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_base/xuxian_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_common/xuxian_common.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_common/xuxian_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_config/xuxian_config.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_config/xuxian_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_eureka/xuxian_eureka.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_eureka/xuxian_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_getway/xuxian_getway.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_getway/xuxian_getway.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_parent.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_sms/xuxian_sms.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_sms/xuxian_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuxian_parent/xuxian_spit/xuxian_spit.iml" filepath="$PROJECT_DIR$/xuxian_parent/xuxian_spit/xuxian_spit.iml" />

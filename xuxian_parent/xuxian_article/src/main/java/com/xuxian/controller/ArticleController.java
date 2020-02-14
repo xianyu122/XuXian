@@ -3,6 +3,7 @@ package com.xuxian.controller;
 import com.xuxian.bean.Article;
 import com.xuxian.entity.Result;
 import com.xuxian.entity.StatusCode;
+import com.xuxian.feignClient.LabelClient;
 import com.xuxian.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -17,6 +18,12 @@ public class ArticleController {
     @Autowired
     private ArticleService articleService;
 
+    @Autowired private LabelClient labelClient;
+
+    @GetMapping("/xuxian-base/{id}")
+    public Object findLabelById(@PathVariable("id") String id){
+        return labelClient.findById(id);
+    }
     @GetMapping
     public Object findAll(){
         List<Article> list = articleService.findAll();
